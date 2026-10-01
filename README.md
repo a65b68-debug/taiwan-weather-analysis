@@ -70,3 +70,65 @@
 透過本專案學習 Python 基礎資料處理、串列運算、平均值與最大最小值計算，以及使用 Matplotlib 進行資料視覺化。
 
 未來將持續增加新的資料來源與分析功能。
+---
+
+## 🌐 V4｜中央氣象署 Open Data API 即時氣象分析
+
+本階段進一步串接交通部中央氣象署 Open Data API，
+透過 Python 自動取得臺北測站即時氣象觀測資料，
+並將取得的 JSON 資料進行解析與視覺化。
+
+### 📡 資料來源
+
+交通部中央氣象署 Open Data API
+
+### 🔍 即時分析項目
+
+- 🌡 即時溫度（Temperature）
+- 💧 相對濕度（Relative Humidity）
+- 💨 風速（Wind Speed）
+- 🕒 觀測時間（Observation Time）
+- 📍 臺北氣象測站
+
+### 📊 即時氣象資料視覺化
+
+![臺北即時氣象分析](taipei_realtime_weather.png)
+
+### 🌤 即時氣象資訊卡
+
+![臺北即時天氣資訊卡](taipei_weather_card.png)
+
+### 💻 V4 Python 程式
+
+程式檔案：
+
+`weather_api_analysis.py`
+
+本程式利用 Python Requests 套件向中央氣象署 Open Data API 發送資料請求，
+取得 JSON 格式氣象資料後，擷取臺北測站之溫度、相對濕度、風速與觀測時間，
+再利用 Matplotlib 將即時資料轉換為視覺化成果。
+
+### 🔐 API Key 安全設計
+
+為避免中央氣象署 API 授權碼公開於 GitHub，
+本專案公開版本不儲存個人 API Key，
+實際執行時需由使用者自行設定授權碼。
+
+---
+
+## 🚀 專案版本歷程
+
+| 版本 | 功能 |
+|---|---|
+| V1 | Python 基礎溫度資料分析 |
+| V2 | 新增每日降雨量分析 |
+| V3 | 新增溫度趨勢圖與降雨量長條圖 |
+| V4 | 串接中央氣象署 Open Data API，取得臺北測站即時氣象資料 |
+
+---
+
+## 🎯 專案學習成果
+
+透過本專案學習 Python 資料處理、基礎統計分析、Matplotlib 資料視覺化、
+Open Data API 串接及 JSON 資料解析，並實際將程式碼與分析成果透過 GitHub
+進行版本管理與公開展示。
