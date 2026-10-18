@@ -18,7 +18,7 @@ params = {
     "format": "JSON"
 }
 
-response = requests.get(url, params=params, timeout=20)
+response = requests.get(url, params=params, verify=False)
 
 print("連線狀態：", response.status_code)
 
