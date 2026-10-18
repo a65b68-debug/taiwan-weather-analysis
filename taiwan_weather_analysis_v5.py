@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import requests
-
+import os
 API_KEY = os.environ["CWA_API_KEY"]
 
 url = "https://opendata.cwa.gov.tw/api/v1/rest/datastore/O-A0001-001"
