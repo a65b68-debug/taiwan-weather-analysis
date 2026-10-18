@@ -214,3 +214,26 @@ Open Data API 串接及 JSON 資料解析，並實際將程式碼與分析成果
 這個專案也讓我了解，
 程式設計不只是撰寫程式碼，
 還需要將資料取得、整理、分析及呈現整合成完整的資訊系統。
+
+
+## 🚀 V8 互動式智慧氣象查詢系統
+
+### 一、專題開發目標
+本專題運用 Python 與中央氣象署開放資料 API，進行氣象資訊讀取、資料整理及視覺化分析，並逐步延伸為互動式智慧氣象查詢系統。
+
+### 二、程式版本與原始碼
+- [V5 氣象資料分析程式](taiwan_weather_analysis_v5.py)
+- [V8 互動式智慧氣象查詢系統](taiwan_weather_analysis_v8.py)
+
+### 三、專題成果展示
+- [臺北即時氣象資訊](taipei_realtime_weather.png)
+- [臺北氣象資訊卡片](taipei_weather_card.png)
+- [城市溫度比較](city_temperature_comparison.png)
+- [城市濕度比較](city_humidity_comparison.png)
+- [城市風速比較](city_wind_speed_comparison.png)
+- [智慧氣象分析儀表板](smart_weather_decision_dashboard.png)
+
+### 四、專題學習反思
+【請陳凱莘親自補充實際開發經驗、遇到的問題及學習心得。】
+
+
